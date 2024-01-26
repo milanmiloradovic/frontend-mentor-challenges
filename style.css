@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header {
+  padding: 0 10rem;
+  margin-bottom: 5rem;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.challenges {
+  display: grid;
+  gap: 2rem;
+  padding: 0 10rem;
+}
+
+.container {
+  height: 20rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.marker {
+  letter-spacing: 0.2rem;
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  padding: 0.5rem 0;
+}
+
+.newbie {
+  background-color: #e9e9ff;
+}
+
+.junior {
+  background-color: #d8ffd8;
+}
+
+.intermediate {
+  background-color: #ffebc5;
+}
+
+.challenges {
+  margin-bottom: 5rem;
+}
+
+.challenges-list {
+  list-style: none;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.challenges-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.challenge:link,
+.challenge:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.challenge:hover,
+.challenge:active {
+  text-decoration: none;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: #adff2f;
+}

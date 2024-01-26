@@ -3,10 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor Challenges</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./recipe-page/images/favicon-32x32.png"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>FMC | Milan Miloradović</title>
   </head>
   <body>
-    <a href="/recipe-page/index.html">Receipe Page</a>
-    <a href="/social-links-profile/index.html">Social Link Profile</a>
+    <header class="header">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                src="https://www.frontendmentor.io/static/images/logo-desktop.svg"
+                alt="Frontend Mentor Logo"
+            /></a>
+          </li>
+          <li>Milan Miloradović</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="challenges grid--3-cols">
+      <div>
+        <div class="container">
+          <span class="marker newbie">Newbie</span>
+          <ul class="challenges-list">
+            <li class="challenges-list-item">
+              <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+              <a class="challenge" href="https://mm-receipe-page.netlify.app/"
+                >Receipe Page</a
+              >
+            </li>
+            <li class="challenges-list-item">
+              <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+              <a class="challenge" href="https://mm-social-profile.netlify.app/"
+                >Social Link Profile</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="container">
+          <span class="marker junior">Junior</span>
+        </div>
+      </div>
+      <div>
+        <div class="container">
+          <span class="marker intermediate">Intermediate</span>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

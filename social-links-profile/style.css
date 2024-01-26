@@ -1,10 +1,5 @@
 @import url("https:; //fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
-/*
-- Mobile: 375px
-- Desktop: 1440px
-*/
-
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
